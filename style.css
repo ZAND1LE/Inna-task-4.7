@@ -1,0 +1,177 @@
+body { 
+padding: 50px;
+background-color: #eff6ff;
+margin: 20;
+color: #2a4a5c;
+font-family: 'barlow', sans-serif;
+}
+.container { 
+display: flex;
+height: 100vh;
+border-radius: 6px;
+overflow: hidden;
+box-shadow: 0 12px 30px rgba (0, 0, 0, 0,12);
+}
+@font-face {
+    font-family: 'barlow';
+    src: url('./fonts/barlow-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.left, .right {
+    width: 50%;
+    flex: 1;
+}
+.left {
+    position: relative;
+
+}
+.right {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 24px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.social-btn img{ 
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+.logo { 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    z-index: 10;
+ }
+ .left img:first-child {
+    width: 100%;
+    height: 100vh;
+    object-fit: hover;
+ }
+ .social-buttons {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+ }
+ .social-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 12px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+ .social-btn {
+    height: 44px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+ }
+ .social-buttons button:nth-child(2) {
+    background-color: #0076b6;
+ }
+ .social-buttons button:nth-child(1) {
+    background-color:#255a9b;
+ }
+ .or-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #999;
+    font-size: 14px;
+    width: 100%;
+    font-size: 14px;
+ }
+ .or-divider::before,
+ .or-divider::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+ }
+ .email input,
+ .phone input{
+    width: 100%;
+    height: 44px;
+    padding: 0 12px 0 16px;
+    border: 1px solid #ccc;
+    border-left: 4px solid #0076b6;
+
+    outline: none;
+    box-sizing: border-box;
+    font-size: 14px;
+ }
+ .contact-row {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+ }
+ .contact-row .email, 
+ .contact-row .phone{
+    flex: 1;
+ }
+ .invenstor-type p{
+    display: none;
+ }
+ .investor-options {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+ }
+ .investor-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+ }
+.investor-options label:hover{
+    background-color: #0076b6;
+    background-color: #f0f8ff;
+}
+.radio-label {
+    position: relative;
+    display: block;
+    padding: 12px;
+    cursor: pointer;
+}
+.popup {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 200px;
+    background: #ffffff;
+    padding: 15px;
+    font-size: 14px;
+    color: #7b8a92;
+    margin-bottom: 25px;
+    line-height: 1,5;
+}
+.radio-label:hover .popup{
+    display: block;
+    background-color: #ffffff;
+}
+
+.terms {
+    cursor: pointer;
+}
+
+.create-account{
+    background-color: #3698fb;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+
+}
+ 
+            
