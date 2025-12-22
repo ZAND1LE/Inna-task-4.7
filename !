@@ -1,0 +1,23 @@
+Add signup form and styles
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto 9c16f7b
+# Last command done (1 command done):
+#    pick 43a0a2f Add signup form and styles
+# No commands remaining.
+# You are currently rebasing branch 'main' on '9c16f7b'.
+#
+# Changes to be committed:
+#	new file:   .DS_Store
+#	modified:   .gitattributes
+#	new file:   barlow.zip
+#	new file:   bg.jpg
+#	new file:   facebook.svg
+#	modified:   index.html
+#	new file:   linkedin.svg
+#	new file:   logo (1).svg
+#	new file:   logo.svg
+#	modified:   style.css
+#
