@@ -32,6 +32,7 @@ box-shadow: 0 12px 30px rgba (0, 0, 0, 0,12);
     padding: 40px 24px;
     align-items: flex-start;
     flex-direction: column;
+    background-color: white;
 }
 .social-btn img{ 
     display: flex;
